@@ -1,0 +1,20 @@
+<pattern xmlns:rpm="http://linux.duke.edu/metadata/rpm" xmlns="http://novell.com/package/metadata/suse/pattern">
+  <name>jolla-configuration-harpia</name>
+  <version ver="1" epoch="0" rel="1"/>
+  <summary>Jolla Configuration harpia</summary>
+  <description>Pattern with packages for harpia configurations</description>
+  <uservisible/>
+  <category lang="en">Base Group</category>
+  <rpm:requires>
+    <rpm:entry name="pattern:jolla-hw-adaptation-harpia"/>
+    <rpm:entry name="patterns-sailfish-applications"/>
+    <rpm:entry name="patterns-sailfish-ui"/>
+    <rpm:entry name="patterns-sailfish-cellular-apps"/>
+    <rpm:entry name="pattern:sailfish-porter-tools"/>
+    <rpm:entry name="sailfish-content-graphics-z1.25"/>
+    <rpm:entry name="jolla-settings-accounts-extensions-3rd-party-all"/>
+    <rpm:entry name="patterns-sailfish-consumer-generic"/>
+    <rpm:entry name="geoclue-provider-mlsdb"/>
+    <rpm:entry name="csd"/>
+  </rpm:requires>
+</pattern>
