@@ -46,6 +46,8 @@
 /lib/systemd/system/graphical.target.wants/droid-late-start.service
 /lib/systemd/system/wlan-module-load.service
 /lib/systemd/system/multi-user.target.wants/wlan-module-load.service
+/lib/systemd/system/droid-hcismd-up.service
+/lib/systemd/system/bluetooth.service.wants/droid-hcismd-up.service
 /lib/udev/platform-device
 /lib/udev/rules.d/997-droid-drm.rules
 /lib/udev/rules.d/998-droid-system.rules
@@ -53,6 +55,7 @@
 /usr/bin/droid/droid-init-done.sh
 /usr/bin/droid/get_partition.sh
 /usr/bin/droid/droid-hal-startup.sh
+/usr/bin/droid/droid-hcismd-up.sh
 /usr/lib/tmpfiles.d/droid-hal.conf
 /usr/sbin/adbd-functionfs.sh
 /usr/share/environment/nemo/hybris.conf
@@ -61,3 +64,5 @@
 /var/lib/environment/ofono/noplugin.conf
 /var/lib/environment/compositor/droid-hal-device.conf
 /usr/bin/droid/droid-hal.startup.sh
+/etc/gst-droid/gstdroidcamsrc-0.conf
+/etc/gst-droid/gstdroidcamsrc-1.conf

@@ -24,6 +24,7 @@
     <rpm:entry name="qt5-feedback-haptics-droid-vibrator"/>
     <rpm:entry name="qt5-plugin-generic-evdev"/>
     <rpm:entry name="pulseaudio-modules-droid"/>
+    <rpm:entry name="pulseaudio-modules-droid-glue"/>
     <rpm:entry name="qt5-qtmultimedia-plugin-mediaservice-gstmediacapture"/>
     <rpm:entry name="qt5-qtwayland-wayland_egl"/>
     <rpm:entry name="qt5-qpa-hwcomposer-plugin"/>
